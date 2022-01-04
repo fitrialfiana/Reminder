@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>NOTA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>        
+        <div>Belanja Sayur</div>
+        <hr>
+        <tr>
+            <th> Nama Sayur : </th><td th:text="${NamaSayur}"></td></br>
+            <th> Harga Sayur : </th><td th:text="${HargaSayur}"></td></br>
+            <th> Jumlah Sayur : </th><td th:text="${Quantity}"></td></br>
+            <th> Harga Awal: </th><td th:text="${HargaAwal}"></td></br>            
+            <th> Diskon : </th><td th:text="${Discount}"></td></br>
+            <th> Harga Akhir : </th><td th:text="${TotalHrg}"></td></br>            
+            <th> Kembalian : </th><td th:text="${Kembali}"></td><br></br>
+            <th> Info : </th><td th:text="${Pesan}"></td></br>            
+        </tr>
+
+        
+            
+        </form> 
+    </body>
+</html>
+
+
+<!--<a><a>Harga Sayur</a><br>
+            <input type="number" name="Harga"><br>
+            <a>Jumlah Beli</a><br>
+            <input type="number" name="quantity"><br>
+            <a>Uang Bayar</a><br>
+            <input type="number" name="bayar"><br><br>
+            Diskon</a><br>
+            <input type="number" name="diskon"><br><br>
+            <a>Total Harga</a><br>
+            <input type="number" name="total"><br><br>-->
